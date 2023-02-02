@@ -29,9 +29,9 @@ const total=()=>{
     <div className='calc'>
      <input type="text" placeholder='0' id='ans' value={result}/>
     
-     <input type='button'value='AC' className='button'onClick={clear}/>
-     <input type='button'value='+/-'className='button' onClick={plusmines}/>
-     <input type='button'value='%'className='button'onClick={clickhandler}/>
+     <input type='button'value='AC' id='d2' className='button'onClick={clear}/>
+     <input type='button'value='+/-'id='d2'className='button' onClick={plusmines}/>
+     <input type='button'value='%'id='d2'className='button'onClick={clickhandler}/>
      <input type='button'value='/' id='d1'className='button'onClick={clickhandler}/>
      <input type='button'value='7'className='button' onClick={clickhandler}/>
      <input type='button'value='8'className='button'onClick={clickhandler}/>
